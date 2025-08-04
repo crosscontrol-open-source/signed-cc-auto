@@ -1,4 +1,5 @@
 # SSH key-pair creation and usage
+NOTE! This instruction is applicable for CC Linux 2 and 3 only. CC Linux 4 is using RAUC for even more robust and secure software updates.
 
 SSH keys are cryptographic key pairs used to authenticate and establish secure, encrypted communication channels. The following examples demonstrate how to generate and use SSH keys for hardening a CCpilot V700 display, though the same principles apply to any CrossControl display.
 
@@ -79,3 +80,4 @@ To disable password-based login, modify the following line in */etc/ssh/sshd_con
 ```
 "#PasswordAuthentication yes" -> "PasswordAuthentication no"
 ```
+
